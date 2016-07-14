@@ -5,11 +5,11 @@
 
 ## TL;DR
 
-Don't use this repo directly.  Use https://github.com/SciSpike/docker-yaktor.
+Don't use images from this repo directly.
+Use https://hub.docker.com/r/yaktor/yaktor instead.
 
 ## Long Story
 
-This repo produces a Docker image that simply adds dependencies Yaktor has
-above and beyond Node.js, which are built into Docker image
-https://hub.docker.com/r/scispike/node.  Its existence facilitates developers
-of Yaktor itself to create Yaktor containers for local testing.
+This repo houses images that contain all Yaktor dependencies.  These base
+images make it possible for developers of Yaktor itself to create Yaktor
+containers for local testing.
