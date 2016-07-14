@@ -3,6 +3,8 @@
 
 # Docker Base Image
 
+[![Join the chat at https://gitter.im/SciSpike/docker-yaktor-base](https://badges.gitter.im/SciSpike/docker-yaktor-base.svg)](https://gitter.im/SciSpike/docker-yaktor-base?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## TL;DR
 
 Don't use images from this repo directly.
