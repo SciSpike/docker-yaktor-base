@@ -3,6 +3,9 @@
 
 # Docker Base Image
 
+* Provides a base docker image for [yaktor/yaktor](https://hub.docker.com/r/yaktor/yaktor)
+* Validates [yaktor](https://github.com/SciSpike/yaktor) via `./run.sh npm test` 
+
 ## TL;DR
 
 Don't use images from this repo directly.
