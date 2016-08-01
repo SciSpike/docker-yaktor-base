@@ -120,13 +120,13 @@ module.exports = function (grunt) {
     },
     shell: {
       confirmOnMasterBranch: {
-        command: "[ $(git status | head -n 1 | awk '{ print $3 }') == '" + master + "' ]"
+        command: "test $(git status | head -n 1 | awk '{ print $3 }') = '" + master + "'"
       },
       confirmOnMaintenanceBranch: {
-        command: "[[ $(git status | head -n 1 | awk '{ print $3 }') =~ ^v[0-9]+\\.[0-9]+\\.x$ ]]"
+        command: "expr $(git status | head -n 1 | awk '{ print $3 }') : 'v[0-9]\\{1,\\}\\.[0-9]\\{1,\\}\\.x$'"
       },
       confirmNoUntrackedFiles: {
-        command: '[ -z "$(git status -s)" ]'
+        command: 'test -z "$(git status -s)"'
       },
       confirmNoModifiedFiles: {
         command: 'git diff --cached --exit-code --no-patch'
