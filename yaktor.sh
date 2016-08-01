@@ -5,7 +5,8 @@ APP_UID=$(id -u)
 term=/dev/console
 FILE_OWNER_UID=$(stat -c '%u' /app)
 USER=$(id -un)
-if [ ! $APP_UID == $FILE_OWNER_UID ]; then
+# Skip if root or permissions match
+if [ ! $APP_UID == 0 ] && [ ! $APP_UID == $FILE_OWNER_UID ]; then
   env | awk '{print "export " $0}' >> ~/.env
   echo "Changing ${USER}'s uid from $APP_UID to $FILE_OWNER_UID"
   #do stuff as root
