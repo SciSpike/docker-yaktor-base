@@ -1,10 +1,11 @@
-[![yaktor image](http://yaktor.io/pics/yaktor-logo.png)](http://yaktor.io)
+[![Yaktor](http://yaktor.io/pics/yaktor-logo.png)](http://yaktor.io)
 
+> NOTE: THIS REPOSITORY IS DEPRECATED.  It is no longer needed or maintained.  See https://github.com/SciSpike/docker-yaktor-node
 
 # Docker Base Image
 
 * Provides a base docker image for [yaktor/yaktor](https://hub.docker.com/r/yaktor/yaktor)
-* Validates [yaktor](https://github.com/SciSpike/yaktor) via `./run.sh npm test` 
+* Validates [yaktor](https://github.com/SciSpike/yaktor) via `./run.sh npm test`
 
 ## TL;DR
 
