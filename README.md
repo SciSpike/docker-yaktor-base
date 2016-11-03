@@ -1,6 +1,9 @@
-[![Yaktor](http://yaktor.io/pics/yaktor-logo.png)](http://yaktor.io)
+[![Yaktor](http://docs.yaktor.io/images/logo-with-text.png)](http://yaktor.io)
 
-> NOTE: THIS REPOSITORY IS DEPRECATED.  It is no longer needed or maintained.  See https://github.com/SciSpike/docker-yaktor-node
+> NOTE: THIS REPO IS DEPRECATED.
+It is no longer needed or maintained.
+It has been superceded by Docker image https://hub.docker.com/r/yaktor/node/ at GitHub repo https://github.com/SciSpike/docker-yaktor-node.
+Please do not use this image; it will be removed in the future.
 
 # Docker Base Image
 
